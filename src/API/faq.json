@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is React.js and why should I use it?",
+    "answer": "React.js is a powerful JavaScript library for building user interfaces. It allows developers to create large web applications that can update and render efficiently in response to data changes, making it an excellent choice for building fast, dynamic, and scalable applications."
+  },
+  {
+    "id": 2,
+    "question": "How does the Virtual DOM in React work?",
+    "answer": "The Virtual DOM is a lightweight copy of the real DOM in React. When a component's state changes, React compares the new virtual DOM with the previous one, calculates the difference, and updates only the necessary parts of the real DOM, improving performance."
+  },
+  {
+    "id": 3,
+    "question": "What are components in React?",
+    "answer": "Components are the building blocks of a React application. They allow you to split the UI into independent, reusable pieces, and think about each piece in isolation. Components can be functional or class-based, making code modular and easier to manage."
+  },
+  {
+    "id": 4,
+    "question": "How do you manage state in React?",
+    "answer": "State in React is managed using the useState hook in functional components or the setState method in class components. State allows you to store and manage dynamic data in a component, re-rendering the UI whenever the state changes."
+  },
+  {
+    "id": 5,
+    "question": "What is JSX in React?",
+    "answer": "JSX is a syntax extension that looks similar to HTML, but it’s actually used in React to describe the UI. JSX allows you to write HTML-like code within JavaScript, making the structure of components more readable and intuitive."
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between props and state in React?",
+    "answer": "Props and state are both used to manage data in React. Props are used to pass data from parent to child components, while state is managed within the component itself. Props are read-only, whereas state can be modified by the component."
+  },
+  {
+    "id": 7,
+    "question": "How does useEffect work in React?",
+    "answer": "The useEffect hook allows you to perform side effects in functional components. It runs after the component renders, and you can specify dependencies to control when it should run, making it useful for data fetching, updating the DOM, and handling subscriptions."
+  },
+  {
+    "id": 8,
+    "question": "What are React hooks?",
+    "answer": "React hooks are functions that let you use state and other React features in functional components. Common hooks include useState for state management and useEffect for handling side effects, enabling a simpler way to create dynamic and responsive UIs."
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the useState hook?",
+    "answer": "The useState hook is used to add state to functional components in React. It returns an array containing the current state value and a function to update it, allowing components to re-render when the state changes."
+  },
+  {
+    "id": 10,
+    "question": "What is conditional rendering in React?",
+    "answer": "Conditional rendering in React allows you to render different elements or components based on certain conditions. It can be achieved using JavaScript operators like if statements or ternary operators, enabling dynamic and flexible UIs."
+  }
+]
